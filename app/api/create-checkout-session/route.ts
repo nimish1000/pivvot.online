@@ -1,10 +1,10 @@
 import Stripe from "stripe";
 import { NextResponse } from "next/server";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string);
-
 export async function POST() {
     try {
+        const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string);
+
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ["card"],
             mode: "payment",
@@ -13,10 +13,10 @@ export async function POST() {
                     price_data: {
                         currency: "usd",
                         product_data: {
-                            name: "Read Your Lib - Software License",
-                            description: "Lifetime license for Read Your Lib Desktop",
+                            name: "Prime Way Holdings - Investment Consultation",
+                            description: "Professional investment consultation and holdings management services",
                         },
-                        unit_amount: 4999, // $49.99
+                        unit_amount: 9999, // $99.99
                     },
                     quantity: 1,
                 },

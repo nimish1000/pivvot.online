@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">5. Your Rights</h2>
                         <p className="text-muted-foreground">
-                            Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete your data. To exercise these rights, please contact us at privacy@readyourlib.com.
+                            Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete your data. To exercise these rights, please contact us at privacy@pivvot.online.
                         </p>
                     </div>
 
@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
                             <br /><br />
                             <strong>Read Your Lib Privacy Team</strong><br />
                             18, 207 Regent Street, London, W1B 3HH, UK<br />
-                            Email: privacy@readyourlib.com
+                            Email: privacy@pivvot.online
                         </p>
                     </div>
                 </div>

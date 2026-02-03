@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Building2 } from "lucide-react";
+import { Menu, X, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -39,10 +39,10 @@ export function Navbar() {
                 <div className="flex items-center justify-between">
                     <Link href="/" className="flex items-center gap-2 group">
                         <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-                            <Building2 className="h-6 w-6 text-primary" />
+                            <Zap className="h-6 w-6 text-primary" />
                         </div>
                         <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-600 dark:to-blue-300">
-                            Prime Way Holdings
+                            Pivvot
                         </span>
                     </Link>
 

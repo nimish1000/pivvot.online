@@ -77,7 +77,7 @@ export default function SupportPage() {
                             <div>
                                 <h3 className="font-bold">Email Support</h3>
                                 <p className="text-sm text-muted-foreground mb-4">Get a response within 24 hours.</p>
-                                <a href="mailto:support@readyourlib.com" className="text-primary hover:underline">support@readyourlib.com</a>
+                                <a href="mailto:support@pivvot.online" className="text-primary hover:underline">support@pivvot.online</a>
                             </div>
                         </div>
                     </div>

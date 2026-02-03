@@ -13,8 +13,8 @@ export async function POST() {
                     price_data: {
                         currency: "usd",
                         product_data: {
-                            name: "Prime Way Holdings - Investment Consultation",
-                            description: "Professional investment consultation and holdings management services",
+                            name: "Pivvot - Premium Consultation",
+                            description: "Professional technology consultation and innovative solutions services",
                         },
                         unit_amount: 9999, // $99.99
                     },

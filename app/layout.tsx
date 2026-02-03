@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Way Holdings | Leading Investment & Holdings Company",
-  description: "Prime Way Holdings - Your trusted partner in strategic investments and diversified holdings for sustainable growth.",
+  title: "Pivvot | Innovative Solutions Platform",
+  description: "Pivvot - Your trusted partner in innovative solutions and cutting-edge technology for modern businesses.",
 };
 
 export default function RootLayout({

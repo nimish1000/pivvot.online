@@ -37,7 +37,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <Badge variant="secondary" className="px-4 py-1.5 text-sm rounded-full mb-4">
-                🚀 Leading Investment & Holdings Company
+                🚀 Innovative Solutions Platform
               </Badge>
             </motion.div>
 
@@ -57,8 +57,8 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-xl text-muted-foreground max-w-[700px] leading-relaxed"
             >
-              Prime Way Holdings specializes in strategic investments across diverse sectors,
-              delivering sustainable growth and exceptional returns for our partners.
+              Pivvot specializes in cutting-edge technology solutions across diverse sectors,
+              delivering innovative growth and exceptional results for modern businesses.
             </motion.p>
 
             <motion.div

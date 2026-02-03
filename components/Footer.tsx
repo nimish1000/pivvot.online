@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Building2, MapPin, Mail } from "lucide-react";
+import { Zap, MapPin, Mail } from "lucide-react";
 
 export function Footer() {
     return (
@@ -9,11 +9,11 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="space-y-4">
                         <Link href="/" className="flex items-center gap-2">
-                            <Building2 className="h-6 w-6 text-primary" />
-                            <span className="text-xl font-bold">Prime Way Holdings</span>
+                            <Zap className="h-6 w-6 text-primary" />
+                            <span className="text-xl font-bold">Pivvot</span>
                         </Link>
                         <p className="text-sm text-muted-foreground leading-relaxed">
-                            Leading investment and holdings company focused on strategic growth and sustainable returns.
+                            Innovative solutions platform focused on cutting-edge technology and modern business needs.
                         </p>
                     </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-muted-foreground">
                             <li className="flex items-center gap-3">
                                 <Mail className="h-4 w-4 text-primary" />
-                                <a href="mailto:support@readyourlib.com" className="hover:text-primary transition-colors">support@readyourlib.com</a>
+                                <a href="mailto:support@pivvot.online" className="hover:text-primary transition-colors">support@pivvot.online</a>
                             </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
@@ -71,7 +71,7 @@ export function Footer() {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-border mt-12 pt-8 text-sm text-muted-foreground">
-                    <p>&copy; {new Date().getFullYear()} Prime Way Holdings. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Pivvot. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy-policy" className="hover:text-foreground">Privacy Policy</Link>
                         <Link href="/terms-of-service" className="hover:text-foreground">Terms of Service</Link>

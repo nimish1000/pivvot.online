@@ -60,7 +60,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-muted-foreground">
                             <li className="flex items-center gap-3">
                                 <Mail className="h-4 w-4 text-primary" />
-                                <a href="mailto:support@pivvot.online" className="hover:text-primary transition-colors">support@pivvot.online</a>
+                                <a href="mailto:help@pivvot.online" className="hover:text-primary transition-colors">help@pivvot.online</a>
                             </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
